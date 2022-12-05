@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/Booking_Page.css" />
+    <link rel="stylesheet" href="css/footer.css"/>
+    
+    <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <div  class="navbar">
+    
+      <ul>
+          <li id="li"><a id="active" href="Booking_Page.html">Booking</a></li>
+          <li id="li" title="guide you to Rides page"><a href="Rides_Page.html">Rides</a></li>
+          <li id="li" title="guide you to Home page"><a href="Home_Page.html">Home</a></li>
+          <li id="l" title="the Best theme park in the world">BREAK-BOUND</li>
+      </ul>
+      
+  </div>
+
+    <div>
+    <h1 id="topHeader" class="header">Booking Form</h1>
+    <p style="font-size: 30px;" class="header">Please fill out this form with the required information</p>
+    
+    <form> <!--form -->
+      <fieldset> <!---->
+        <h2>Info</h2>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+    
+      </fieldset>
+      <fieldset>
+        <h2>Tickets</h2><!--tickets-->
+        <p style="text-align:left"><b>Prices:</b></p>
+        <label for="adult">Adult - $75.00
+        <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+        <label for="adult">Child - $35.00
+            <select id="referrer" name="referrer">
+                <option value="">(select one)</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </label>
+        <label for="adult">Senior - $50.00
+            <select id="referrer" name="referrer">
+                <option value="">(select one)</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </label>
+
+        <label for="extras">Extra information:
+          <textarea id="extras" name="extras" rows="3" cols="30" placeholder="Type your comments"></textarea>
+        </label>
+      </fieldset>
+      <input id="ckeckout" type="submit" value="Checkout" /><!--checkout button-->
+    </form>
+    </div>
+  </body>
+    <!-- Site footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="about">
+        <h6>About</h6>
+        <p class="text-justify">From SIM<i>Singapore.</i></p>
+      </div>
+
+      <div class="categories">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a href="Home_Page.html">Home</a></li>
+          <li><a href="Rides_Page.html">Rides</a></li>
+          <li><a href="Booking_Page.html">Booking</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Contribute</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="license-text">
+        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+          <a href="#">SIM 118</a>.
+        </p>
+      </div>
+
+      <div class="footer-col2">
+        <ul class="icons">
+          <li><a class="facebook" href="https://www.facebook.com" target="_blank"><img src="images/footer/fb.png" width="40px" height="40px"><i class="facebook"></i></a></li>
+          <li><a class="twitter" href="https://twitter.com" target="_blank"><img src="images/footer/tweet.png" width="40px" height="40px"><i class="twitter"></i></a></li>
+          <li><a class="pinterest" href="https://www.pinterest.com" target="_blank"><img src="images/footer/pin.png" width="40px" height="40px"><i class="pinterest"></i></a></li>
+          <li><a class="email" href="https://mail.google.com" target="_blank"><img src="images/footer/mail.png" width="40px" height="40px"><i class="email"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+</html>

@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(220, 197, 199,0.5);
+}
+
+.image1 {
+    margin-top: 85px;
+}
+
+#nextButtonPos {
+    text-align: center;
+}
+
+.nextButton {
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Fugaz One', cursie;
+    background-color: #34f481;
+    text-decoration: none;
+    word-spacing: 5px;
+    padding: 10px 40px;
+    border-width: 2px;
+    border-style:  solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.nextButton:link {
+    color: blue;
+}
+
+.nextButton:hover {
+    background-color: gold;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    transition-duration: 0.1s;
+    border-width: 3px;
+}
+
+.nextButton:visited {
+    color: blue;
+}
+
+.nextButton:active {
+    color: blue;
+}
+
+.slogan {
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.content {
+    font-size: x-large;
+    text-indent: 31px;
+    margin-top: 15px;
+}
+
+.image3 {
+    float: left;
+}
